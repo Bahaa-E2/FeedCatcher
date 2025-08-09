@@ -15,7 +15,7 @@ opkg install python3-beautifulsoup4
 echo "> Downloading Live FeedFinder..."
 wget -q --no-check-certificate "https://raw.githubusercontent.com/Bahaa-E2/Liver_FeedFinder/refs/heads/main/Live_FeedFinder.tar.gz" -O /tmp/Live_FeedFinder.tar.gz
 echo "> Extracting Live FeedFinder..."
-tar -xf /tmp/Live_FeedFinder.tar.gz -C /tmp
+tar -xzf /tmp/Live_FeedFinder.tar.gz -C /tmp
 cp -r /tmp/Live_FeedFinder /usr/lib/enigma2/python/Plugins/Extensions
 rm -r /tmp/Live_FeedFinder
 rm -f /tmp/Live_FeedFinder.tar.gz

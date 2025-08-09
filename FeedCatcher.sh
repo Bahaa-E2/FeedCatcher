@@ -4,7 +4,7 @@
 # By: Bahaa (Linuxcode)
 echo '======================================================'
 echo '           Plugin BY- BAHAA LINUXCODE\n               '
-echo '                Live FeedFinder                  '
+echo '                FeedCatcher                 '
 echo '======================================================'
 echo "Starting installation..."
 sleep 3
@@ -24,7 +24,7 @@ echo "========================================================="
 echo "===                      FINISHED                     ==="
 echo "===                Bahaa (Linuxcode)                  ==="
 echo "========================================================="
-echo "       Live FeedFinder installed successfully!           "
+echo "       FeedCatcher installed successfully!           "
 echo "========================================================="
 echo '*******************************************************'
 sleep 3

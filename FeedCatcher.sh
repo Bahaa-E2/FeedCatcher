@@ -8,17 +8,17 @@ echo '                Live FeedFinder                  '
 echo '======================================================'
 echo "Starting installation..."
 sleep 3
-rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Live_FeedFinder
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/FeedCatcher
 rm -rf /tmp/Live_FeedFinder.tar.gz
 echo "> Installing Beautiful Soup package..."
 opkg install python3-beautifulsoup4
 echo "> Downloading Live FeedFinder..."
-wget -q --no-check-certificate "https://raw.githubusercontent.com/Bahaa-E2/Liver_FeedFinder/refs/heads/main/Live_FeedFinder.tar.gz" -O /tmp/Live_FeedFinder.tar.gz
+wget -q --no-check-certificate "https://raw.githubusercontent.com/Bahaa-E2/Liver_FeedFinder/refs/heads/main/Live_FeedFinder.tar.gz" -O /tmp/FeedCatcher.tar.gz
 echo "> Extracting Live FeedFinder..."
-tar -xzf /tmp/Live_FeedFinder.tar.gz -C /tmp
-cp -r /tmp/Live_FeedFinder /usr/lib/enigma2/python/Plugins/Extensions
-rm -r /tmp/Live_FeedFinder
-rm -f /tmp/Live_FeedFinder.tar.gz
+tar -xzf /tmp/FeedCatcher.tar.gz -C /tmp
+cp -r /tmp/FeedCatcher /usr/lib/enigma2/python/Plugins/Extensions
+rm -r /tmp/FeedCatcher
+rm -f /tmp/FeedCatcher.tar.gz
 sleep 2
 echo "========================================================="
 echo "===                      FINISHED                     ==="

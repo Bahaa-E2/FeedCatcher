@@ -13,7 +13,7 @@ rm -rf /tmp/Live_FeedFinder.tar.gz
 echo "> Installing Beautiful Soup package..."
 opkg install python3-beautifulsoup4
 echo "> Downloading Live FeedFinder..."
-wget -q --no-check-certificate "https://raw.githubusercontent.com/Bahaa-E2/Liver_FeedFinder/refs/heads/main/Live_FeedFinder.tar.gz" -O /tmp/FeedCatcher.tar.gz
+wget -q --no-check-certificate "https://raw.githubusercontent.com/Bahaa-E2/Liver_FeedFinder/refs/heads/main/FeedCatcher.tar.gz" -O /tmp/FeedCatcher.tar.gz
 echo "> Extracting Live FeedFinder..."
 tar -xzf /tmp/FeedCatcher.tar.gz -C /tmp
 cp -r /tmp/FeedCatcher /usr/lib/enigma2/python/Plugins/Extensions
